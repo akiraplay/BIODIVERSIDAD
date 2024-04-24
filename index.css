@@ -1,0 +1,153 @@
+/* Importación de la fuente Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Estilos generales para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para la barra de menú */
+.menu-bar {
+    background-color: #212F3D;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+/* Estilos para el logo */
+.logo {
+    font-size: 24px;
+    color: #fdc500;
+    border: none;
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+
+/* Estilos para la navegación dentro de la barra de menú */
+.menu-bar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar nav ul li {
+    position: relative;
+}
+
+.menu-bar nav ul li a {
+    font-size: 16px;
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu-bar nav ul li a:hover {
+    color: #fdc500;
+}
+
+/* Estilos para el menú desplegable */
+.menu-bar nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #212529;
+    width: 200px;
+    z-index: 1;
+}
+
+.menu-bar nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.menu-bar nav ul li .dropdown-menu li {
+    display: block;
+}
+
+.menu-bar nav ul li .dropdown-menu li a {
+    padding: 10px;
+}
+
+/* Iconos FontAwesome */
+.fas {
+    margin-left: 5px;
+}
+
+/* Estilos para el footer */
+#footer {
+    background-color:#212F3D;
+    color: #f8f9fa;
+    display: block;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: under;
+    bottom: 0;
+}
+
+.contactame {
+    color: #fdc500;
+}
+
+/* Contenedor del footer */
+.footer-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.footer-container h2 {
+    margin-bottom: 10px;
+}
+
+.footer-container p {
+    margin-bottom: 8px;
+}
+
+.footer-container a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-container a:hover {
+    color: #007bff;
+}
+
+
+
+body {
+    background-color: #EAEDED;
+}
+
+/* Estilos para el contenedor de video */
+.videoBoyaca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoCundi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+/* Estilos para imágenes */
+.img {
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    border: auto;
+    display: block;
+    width: 30%;
+    margin: auto;
+}
